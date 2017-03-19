@@ -16,7 +16,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
-#include <unistd.h>
+#include <headers_fixup.h>
+#include <io.h>
 
 #define PGM "mkheader"
 

@@ -39,7 +39,7 @@
 #endif
 #include <io.h>
 #include <windows.h>
-
+#include <headers_fixup.h>
 /* Enable tracing.  The value is the module name to be printed.  */
 /*#define ENABLE_TRACING "estream" */
 

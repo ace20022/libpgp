@@ -50,7 +50,7 @@
 #endif
 
 #include <gpg-error.h>
-
+#include <headers_fixup.h>
 
 #if HAVE_W32_SYSTEM
 /* The implementation follows below.  */

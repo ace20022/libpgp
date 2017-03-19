@@ -74,12 +74,11 @@
 # include <sys/time.h>
 #endif
 #include <sys/types.h>
-#include <sys/file.h>
-#include <sys/stat.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
+#include <headers_fixup.h>
+#include <io.h>
 #include <stdarg.h>
 #include <fcntl.h>
 #include <errno.h>
